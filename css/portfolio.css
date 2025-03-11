@@ -1,0 +1,269 @@
+font-family: "Raleway", system-ui;
+:root {
+    --blue-color: #2196f3;
+    --text-color: #212121;
+    --light-text: #757575;
+    --bg-color: #2f303a;
+}
+
+* {
+    
+    color: var(--text-color);
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+body {
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+    justify-content: center;
+    padding: 0 215px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    border-bottom: solid 1px #ececec;
+    margin-left: -215px;
+    margin-right: -215px;
+    padding: 0 215px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+a:hover,
+a:focus {
+    color: var(--blue-color);
+}
+
+.links {
+    margin: 0 0 0 93px;
+    display: flex;
+}
+
+.links li {
+    margin-right: 50px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.contacts a {
+    margin-left: 50px;
+    color: var(--light-text);
+}
+
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--blue-color);
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #000;
+
+    .web {
+        font-family: "Raleway", system-ui;
+        color: var(--blue-color);
+        font-size: 26px;
+    }
+}
+
+.portfolio {
+    width: 1170px;
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 94px 0;
+}
+
+.info {
+    margin-bottom: 50px;
+}
+
+.info button {
+    height: 38px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    color: var(--text-color);
+    font-weight: 500;
+    margin: 0 2px;
+}
+
+.info button:hover {
+    filter: drop-shadow(0px 1px 2px #00000040);
+}
+.info button:focus {
+    color: #fff;
+    background-color: var(--blue-color);
+    filter: drop-shadow(0px 1px 2px #00000040);
+}
+
+.animated_button{
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: rgb(128, 128, 243) solid 2px;
+    background-color: rgb(240, 165, 60);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 
+    background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out,
+    transform 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+}
+.animated_button:hover{
+    background-color: #ffffff ;
+    color: rgb(92, 246, 36);
+    box-shadow: 0 0 10px rgb(231, 252, 5);
+}
+.animated_button:active{
+    background-color: rgb(203, 239, 132);
+    color: White;
+    transform: scale(0.9);
+}
+.animated_button:focus{
+    outline: none;
+    box-shadow: 0 0 10px rgb(60, 60, 119);
+}
+.animated_button:disabled{
+    background-color: rgb(174, 174, 174);
+    border-color: rgb(174, 174, 174);
+    color: rgb(45, 45, 45);
+    cursor: not-allowed;
+    box-shadow: none;
+}
+.imagess {
+    width: 1170px;
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 27px;
+}
+
+.portfolio .images {
+    width: 370px;
+    height: 404px;
+    border: solid 1px #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--light-text);
+}
+
+.images img {
+    height: 294px;
+}
+
+.images .title {
+    width: 322px;
+    height: 70px;
+    padding: 20px 24px;
+}
+.images .title h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+.images .title p {
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--light-text);
+}
+
+footer {
+    height: 252px;
+    background-color: var(--bg-color);
+    margin-left: -215px;
+    margin-right: -215px;
+    padding: 0 215px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer address span {
+    color: #fff;
+}
+footer a {
+    color: var(--light-text);
+}
+footer a:hover,
+footer a:focus {
+    color: var(--blue-color);
+}
+
+footer address {
+    font-style: normal;
+}
+
+.logow {
+    margin: 20px 0px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #fff;
+
+    .web {
+        color: var(--blue-color);
+        font-size: 26px;
+    }
+}
+.card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: -100%; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 255, 0.7);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    transition: bottom 0.3s ease-in-out;
+}
+.card:hover .overlay,
+.card:focus-within .overlay {
+    bottom: 0;
+}

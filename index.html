@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>webstudio</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="navigation">
+        <span class="logo">
+          <span class="logoweb">Web</span>Studio</span>
+      <nav>
+        <ul class="navlinks">
+          <li><button class="button__open" data-modal-open>Студія</button>
+            </li>
+          <li><a href="Portfolio.html">Портфоліо</a></li>
+          <li><a href="">Контакти</a></li>
+        </ul>
+      </nav>
+      <div class="contacts">
+      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a href="tel:+380668248633">+380668248633</a>
+      </div>
+    </section>
+    </header>
+    <main>
+      
+        <section class="section1">
+        <h1>Ефективні рішення для вашого бізнесу</h1>
+        <button class="animated_button" id="mainButton">Замовити послугу</button>
+      </section>
+      <section class="info">
+        <ul>
+          <li style="height: 90px;;">
+        <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+        <p>
+          Ідейні міркування, і навіть початок повсякденної роботи з формування
+          позиції.
+        </p>
+        </li style="height: 90px;;">
+        <li style="height: 90px;;">
+        <h3>ПУНКТУАЛЬНІСТЬ</h3>
+        <p>
+          Завдання організації, особливо рамки і місце 
+          навчання кадрів тягне у себе.
+        </p>
+        </li>
+        <li style="height: 90px;;">
+        <h3>ПЛАНУВАННЯ</h3>
+        <p>
+          Так само консультація з широким активом значною мірою зумовлює.
+        </p>
+        </li>
+        <li style="height: 90px;;">
+        <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+        <p>
+          Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+        </p>
+        </li>
+      </ul>
+      </section>
+      <section class="webstudio__section3">
+        <h1 class="webstudio__section3__h1">Чим ми займаємося</h1>
+        <div class="webstudio__section3__div">
+          <div class="box">
+            <img  alt="img" class="imggav" src="img.png" />
+            <p class="position text1">ДЕКСТОПНІ ДОДАТКИ</p>
+          </div>
+          <div class="box">
+            <img  alt="img" class="imggav" src="img (1).png" />
+            <p class="position text2">МОБІЛЬНІ ДОДАТКИ</p>
+          </div>
+          <div class="box">
+            <img  alt="img" class="imggav" src="img (2).png" />
+            <p class="position text3">ДИЗАЙНЕРСЬКІ РІШЕННЯ</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="team">
+        <h2>Наша команда</h2>
+        <ul>
+          <li>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqeL5lblyEFXlt1PXeToT-9ikdEwKIlfT9KSvNHlB2vV1f17Nh" alt="Ігор Дем'яненко" width="400" height="400">
+          <h2>Ігор Дем'яненко</h2>
+          <p>Product Designer</p>
+          </li>
+          <li>
+          <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT8XoUa3CTFGhIfk-L3zGCLDgKrnkfb-0EKVePM1EIU4A8Slvng" alt="Ольга Рєпіна" width="400" height="400">
+          <h2>Ольга Рєпіна</h2>
+          <p>Frontend Developer</p>
+          </li>
+          <li>
+          <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSHV5QTRmbHIc_LBRsyS37ZEI4wpF5vsXK9ydMCGzdcOurews8u" alt="Микола Тарасов" width="400" height="400">
+          <h2>Микола Тарасов</h2>
+          <p>Marketing</p>
+          </li>
+          <li>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTix6fqkh3PZqsc7NMgX4aqPw4yxENh0GTYKRx-iIBJyNCbzDss" alt="Михайло Єрмаков" width="400" height="400">
+        <h2>Михайло Єрмаков</h2>
+        <p>UI Designer</p>
+        </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <span class="logow"> <span class="logoweb">Web</span>Studio</span>
+      <address>
+          <span>м. Київ, пр-т Лесі Українки, 26</span> <br />
+          <br />
+          <a href="mailto:example@gmail.com" target="_blank">
+              info@devstudio.com
+          </a>
+          <br />
+          <br />
+          <a href="tel:+380961111111" target="_blank">+380961111111</a>
+      </address>
+    </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <form class="forma">
+          <h2 class="h2">Залиште ваші данні ми вам передзвонимо</h2>
+          <div class="formsex">
+            <input type="name" placeholder="name" id="neme" />
+            <input type="email" placeholder="mail" id="mail" />
+            <input type="text" placeholder="text" id="text" />
+          </div>
+          <button class="b1" type="submit" data-modal-close>х</button>
+        </form>
+        
+        </div>
+      </div>
+      <script src="script.js"></script>
+  </body>
+</html>
