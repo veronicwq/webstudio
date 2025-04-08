@@ -363,4 +363,28 @@ footer address {
         cursor: not-allowed;
         box-shadow: none;
     }
+    .burger {
+        font-size: 28px;
+        background: none;
+        border: none;
+        cursor: pointer;
+      }
+      
+     
+      
+      
+      .close-btn {
+        font-size: 28px;
+        background: none;
+        border: none;
+        float: right;
+        cursor: pointer;
+      }
+      
+      @media (min-width: 768px) {
+        .burger {
+          display: none;
+        }
+      
+      }
       
