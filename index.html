@@ -89,6 +89,7 @@
     <header>
       <div class="navigation">
         <span class="logo">
+          
           <span class="logoweb">Web</span>Studio</span>
       <nav>
         <ul class="navlinks">
@@ -146,15 +147,30 @@
         <h1 class="webstudio__section3__h1">Чим ми займаємося</h1>
         <div class="webstudio__section3__div">
           <div class="box">
-            <img  alt="img" class="imggav" src="img.png" />
+            <picture>
+              <source srcset="images/img@1x.png 1x, images/img@2x.png 2x" media="(max-width: 767px)">
+        <source srcset="images/img@1x.png 1x, images/img@2x.png 2x" media="(min-width: 768px) and (max-width: 1199px)">
+        <source srcset="images/img@1x.png 1x, images/img@2x.png 2x" media="(min-width: 1200px)">
+              <img src="images/img@1x.png" alt="Декстопні додатки" class="imggav">
+            </picture>
             <p class="position text1">ДЕКСТОПНІ ДОДАТКИ</p>
           </div>
           <div class="box">
-            <img  alt="img" class="imggav" src="img (1).png" />
+            <picture>
+              <source srcset="images/img-1@1x.png 1x, images/img-1@2x.png 2x" media="(max-width: 767px)">
+              <source srcset="images/img-1@1x.png 1x, images/img-1@2x.png 2x" media="(min-width: 768px) and (max-width: 1199px)">
+              <source srcset="images/img-1@1x.png 1x, images/img-1@2x.png 2x" media="(min-width: 1200px)">
+              <img src="images/img-1@1x.png" alt="Мобільні додатки" class="imggav">
+            </picture>
             <p class="position text2">МОБІЛЬНІ ДОДАТКИ</p>
           </div>
           <div class="box">
-            <img  alt="img" class="imggav" src="img (2).png" />
+            <picture>
+              <source srcset="images/img-2@1x.png 1x, images/img-2@2x.png 2x" media="(max-width: 767px)">
+              <source srcset="images/img-2@1x.png 1x, images/img-2@2x.png 2x" media="(min-width: 768px) and (max-width: 1199px)">
+              <source srcset="images/img-2@1x.png 1x, images/img-2@2x.png 2x" media="(min-width: 1200px)">
+              <img src="images/img-2@1x.png" alt="Дизайнерські рішення" class="imggav">
+            </picture>
             <p class="position text3">ДИЗАЙНЕРСЬКІ РІШЕННЯ</p>
           </div>
         </div>
